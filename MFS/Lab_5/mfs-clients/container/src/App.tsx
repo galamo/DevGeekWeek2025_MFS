@@ -2,9 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 // @ts-ignore
 import CartPage from "Cart/CartPage";
+//                    local/RemoteName
 // @ts-ignore
 import ProductsPage from "Products/ProductsPage";
-
+// @ts-ignore
+import SingleProduct from "Products/SingleProduct";
 import "./index.css";
 
 const App = () => (
@@ -15,6 +17,7 @@ const App = () => (
         <h1>Products</h1>
         <div className="content">
           <ProductsPage />
+          <SingleProduct />
         </div>
       </div>
       <div className="mfItem">

@@ -2,10 +2,7 @@ require("dotenv").config();
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
 console.log(process.env.HOST, "HOST");
-console.log(process.env.HOST, "HOST");
-console.log(process.env.HOST, "HOST");
-console.log(process.env.HOST, "HOST");
-console.log(process.env.HOST, "HOST");
+
 
 console.log("process.env.NODE_ENV", process.env.NODE_ENV);
 const componentPath =
@@ -55,7 +52,7 @@ module.exports = {
       filename: "remoteEntry.js",
       remotes: {
         Cart: "cart@http://localhost:8081/remoteEntry.js",
-        Products: "products@http://localhost:8082/remoteEntry.js",
+        Products: "products@http://localhost:8082/remoteEntry.js"
       },
       exposes: {},
       shared: {

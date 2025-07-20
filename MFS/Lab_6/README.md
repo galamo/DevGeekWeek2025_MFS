@@ -56,5 +56,8 @@ Generated using `pnpm create vite host --template react-swc-ts`
 
 
 
-Running the MFS
-Creating new MF In the steup
+# Run
+1. pnpm run build
+2. pnpm run start
+3. Add new MF to the setup
+4. Search box 

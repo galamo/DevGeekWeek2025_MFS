@@ -3,6 +3,7 @@ import axios from "axios";
 import { Card } from 'primereact/card';
 // @ts-ignore
 import css from "./style.module.css"
+// import "./index.css"
 
 export default function Products() {
     const [products, setProducts] = useState([])
@@ -39,8 +40,8 @@ export default function Products() {
 
 function ProductCard(props: any) {
 
-    return <div className="card" style={{ padding: "10px", margin: "10px", border: "1px solid black" }}>
-        <div>
+    return <div className={css.card} style={{ padding: "10px", margin: "10px", border: "1px solid black" }}>
+        <div className={css["card-content"]}>
             <img alt="Card" src={props.thumbnail} />
             <h2> {props.brand}</h2>
             <h2>{props.price}$</h2>
