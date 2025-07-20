@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Host Client </h1>
+        <h1>Host Client Application (Shell) </h1>
       </div>
       <div
         style={{
