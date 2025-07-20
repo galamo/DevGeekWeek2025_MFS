@@ -52,11 +52,9 @@ body {
 ```
 
 
-## Ready Components 
+# Run time integration
+- module federation
 
-
-
-
-
-### Api static server
-
+1. Run `npm i` in each folder [mfs]
+2. Run Api - `npm start`
+3. Run MF's

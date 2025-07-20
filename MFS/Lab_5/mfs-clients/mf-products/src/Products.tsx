@@ -39,7 +39,7 @@ export default function Products() {
 
 function ProductCard(props: any) {
 
-    return <div className="smallCard">
+    return <div className="card" style={{ padding: "10px", margin: "10px", border: "1px solid black" }}>
         <div>
             <img alt="Card" src={props.thumbnail} />
             <h2> {props.brand}</h2>
