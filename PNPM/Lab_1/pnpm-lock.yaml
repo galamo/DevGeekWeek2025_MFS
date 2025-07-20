@@ -14,20 +14,11 @@ importers:
         specifier: ^1.7.2
         version: 1.7.2
 
-  libs/do-something:
-    dependencies:
-      axios:
-        specifier: ^1.7.2
-        version: 1.7.2
-
   server:
     dependencies:
       axios:
         specifier: ^1.7.2
         version: 1.7.2
-      do-something:
-        specifier: 1.0.0
-        version: link:../libs/do-something
 
 packages:
 
