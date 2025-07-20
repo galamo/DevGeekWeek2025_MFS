@@ -13,8 +13,7 @@ export default defineConfig(({ command, mode }) => {
       federation({
         name: "host",
         remotes: {
-          flights: "http://localhost:5001/assets/remoteEntry.js",
-          cars: "http://localhost:5002/assets/remoteEntry.js",
+          flights: "http://localhost:5001/assets/remoteEntry.js"
         },
         shared: ["@mui/material", "react", "react-dom", "@mui/x-data-grid"],
       }),

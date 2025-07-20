@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "host": "cd ./host-client && npm run dev",
-    "cars": "cd ./cars-client && npm run dev",
-    "flights": "cd ./flights-client && npm run dev",
+    "cars": "cd ./cars-client && npm run preview",
+    "flights": "cd ./flights-client && npm run preview",
     "all": "concurrently --names \"HOST,CARS,FLIGHTS\" --prefix-colors \"red,green,yellow\" \"npm run host\" \"npm run cars\" \"npm run flights\""
   },
   "keywords": [],

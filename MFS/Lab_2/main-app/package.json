@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "tsc -b && vite build"
   },
   "dependencies": {
+    "country-data": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "shared-lib": "workspace:*"
+    "shared-lib": "workspace:*",
+    "tsc": "^2.0.4"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
